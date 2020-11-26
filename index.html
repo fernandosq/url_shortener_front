@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baby url</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="js/requests.js"></script>
+</head>
+    
+<body background="https://cdn.pixabay.com/photo/2019/11/09/17/36/fjord-4614096_960_720.jpg">
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Baby Url</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="ranking.html">Ranking</a>
+                </div>
+          </div>
+    </nav>
+
+
+    <div id="focus" >
+        <form >
+            <div id="formurl" align="center">
+                <input id="url" type="text" name="url" placeholder="Enter the link here">  
+            </div>
+        </form>
+        <div id="form_button" align="center" >
+            <button class="btn btn-primary" onclick="getUrlAndRequestNewCode()"  value="Shorten URL">Shorten url</button>
+        </div>
+    </div>
+    <div id="url_shorter" align="center" ></div>
+</body>
+    
+<footer>
+    <div class="copyright" >
+        <div>
+            <a class="icon" href="https://www.linkedin.com/in/fernandosanchezquiros"><i class="fa fa-linkedin"></i></a>
+             <a class="icon" href="https://github.com/fernandosq"><i class="fa fa-github"></i></a>
+            <p class="small">© 2020 Fernando Sanchez Quiros.</p>
+        </div>
+    </div>
+</footer>
+</html>

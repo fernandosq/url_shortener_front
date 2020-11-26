@@ -1,0 +1,96 @@
+
+.navbar-light .navbar-brand {
+    color: #b7d7e8 !important;
+}
+
+#focus{
+    margin-top: 200px
+}
+
+#form_button{
+    padding-bottom: 2px;
+    margin-top: 2px;
+    border-bottom-color: 2px,black;
+    border-radius: 20px;
+    
+}
+
+.btn-primary {
+    background-color: #87bdd8 !important;
+    border-color: #87bdd8 !important;
+}
+
+#url{
+    width: 50%;
+    padding: 8px 10 px;
+    outline: :none;
+    border 2px solid #fff;
+    border-radius: 20px;
+    color: #004d80;
+    font-size: 12px;
+    text-align: center      
+}
+
+::placeholder{
+    color:#ccc;
+    text-align: center
+}
+
+#url_shortener{
+    background-color: whitesmoke;
+    text-align: center;
+    
+    font-size: 10px !important;
+    
+    
+}
+#code{
+    font-size: 30px !important;
+    margin-top: 70px !important;
+}
+
+footer {
+  background-color: #cfe0e8;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: 271c1c;
+  align-content: center;
+  text-align: center
+}
+
+.icon{
+    color:#87bdd8;     
+}
+
+body{
+    background-size: cover
+}
+
+.social{
+    align-content: center
+}
+
+.small{
+   
+}
+.copyright{
+    align-items: center
+}
+
+.table{
+    color: aliceblue !important;
+}
+
+#initials_table{
+    color: #87bdd8 !important; 
+}
+
+#ranking_table{
+    background: transparent;
+    align-items: justify;
+    backdrop-filter:blur(10px);
+    align-content: justify;
+    text-align:center;
+    color: #66c2ff !important;   
+}
